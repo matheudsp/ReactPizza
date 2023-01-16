@@ -1,4 +1,4 @@
-# <div align="center">A RESTAURANT WEBSITE</div>
+# <div align="center">🍕A RESTAURANT WEBSITE</div>
 
 
 <img src="./readme_img/2.png" />    
