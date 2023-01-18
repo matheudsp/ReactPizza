@@ -4,7 +4,7 @@
 <img src="./readme_img/2.png" />    
 
 
-## <a href="" target="_blank">LIVE DEMO</a>
+## <a href="https://react-pizza-gules.vercel.app/" target="_blank">LIVE DEMO</a>
 
 
 <p align="center">This is a web system for restaurants that performs a CRUD.</p>
@@ -54,8 +54,20 @@ $ git clone https://github.com/matheudsp/reactPizza.git
 $ npm install
 $ npm start
 ```
-Backend needed
-The application will open in the browser on http://localhost:3000 
+
+```
+in PgAdmin
+$ CREATE DATABASE pizzaria
+
+in CMD
+$ npm install prisma --save-dev
+$ npx prisma migrate dev 
+
+```
+<a href="https://github.com/matheudsp/reactPizza-backend" >Backend</a>  needed 
+<p>You will need to create a database through PostgreSQL and modify the DATABASE_URL variable inside .env</p>
+<p>You will also need to install Prism to perform database schema migration </p>
+<p>The application will open in the browser on <a href="http://localhost:3000">http://localhost:3000</a> </p>
 
 <img src="./readme_img/1.png" />    
 <img src="./readme_img/3.png" />    
