@@ -65,7 +65,7 @@ $ npx prisma migrate dev
 
 ```
 <a href="https://github.com/matheudsp/reactPizza-backend" >Backend</a>  needed 
-<p>You will need to create a database through PostgreSQL and modify the DATABASE_URL variable inside .env</p>
+<p>You will need to create a database through PostgreSQL and set the DATABASE_URL in the .env file to point to your existing database.</p>
 <p>You will also need to install Prism to perform database schema migration </p>
 <p>The application will open in the browser on <a href="http://localhost:3000">http://localhost:3000</a> </p>
 
